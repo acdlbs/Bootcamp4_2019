@@ -66,6 +66,7 @@ export default class AddBuilding extends Component {
         <label>
           Address:
           <input
+            style={{}}
             type="text"
             Address={this.state.value}
             onChange={this.handleAddressChange}

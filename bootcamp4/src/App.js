@@ -59,7 +59,7 @@ class App extends React.Component {
       <div className="bg">
         <div className="row">
           <div style={{ textAlign: "center" }}>
-            <h1>UF Directory App</h1>
+            <h1 style={{ textEmphasisColor: "black" }}>UF Directory App</h1>
             <button
               class="toggle-button"
               id="centered-toggle-button"

@@ -2,7 +2,7 @@ import React from "react";
 
 class BuilingList extends React.Component {
   render() {
-    const { data, selected, filter, removeID, remove } = this.props;
+    const { data, selected, filter, remove } = this.props;
 
     const buildingList = data
       .filter(
@@ -21,7 +21,6 @@ class BuilingList extends React.Component {
             <td>
               <button
                 onClick={event => {
-                  //change
                   remove(directory.id);
                 }}
                 type="button"
